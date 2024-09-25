@@ -1,0 +1,302 @@
+/* General body settings - removing default margins and padding, and setting a default font family */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alike';
+}
+
+/* Styling for the header */
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+/* General navigation styling */
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Logo section settings */
+.logo {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-color: #0a0b27;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Styling the logo image */
+.logo img {
+    width: 28%;
+    height: 36%;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+/* Navigation bar container settings */
+.nav-bar {
+    display: flex;
+    flex: 3;
+    height: 100%;
+    background-color: #0a0b27;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Styling the unordered list inside the nav-bar */
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* Individual list item (menu option) styling */
+.nav-bar ul li {
+    transition: color 1s;
+    cursor: pointer;
+}
+
+/* Hover effect on the menu items */
+.nav-bar ul li:hover {
+    color: #e53f27;
+}
+
+/* General section container settings */
+section {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* Main image section settings */
+.main-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Slogan section styling */
+.slogan {
+    display: flex;
+    flex: 1;
+    background-color: rgb(47, 193, 222);
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Image inside the slogan section */
+.slogan img {
+    width: 30%;
+    height: 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Heading inside the slogan section */
+.slogan h1 {
+    color: #812529;
+    position: absolute;
+    text-align: center;
+    font-size: 81px;
+    width: 400px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+/* Description section settings */
+.description {
+    flex: 1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Paragraphs inside the description section */
+.description .p1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 500px;
+    flex-wrap: wrap
+}
+
+/* Social media icons container settings */
+.Social-icons {
+    display: flex;
+    gap: 8px;
+    margin-right: 350px;
+}
+
+/* Social media icons (Facebook, Instagram, Twitter, YouTube) styling */
+.facebook,
+.instagram,
+.twitter,
+.youtube {
+    width: 30px;
+    height: 60px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Settings for the image in the last section */
+.last-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer general settings */
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* First footer section */
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+    align-items: start
+}
+
+/* Styling paragraphs inside the first footer section */
+.footer-1 .p1,
+.p2 {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+/* Adjusting paragraph spacing in the footer */
+.footer-1 .p2 {
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 254px;
+    padding-bottom: 20%;
+}
+
+/* Second footer section */
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+    align-items: start;
+}
+
+/* Paragraph settings inside the second footer section */
+.footer-2 .p1,
+.p2 {
+    margin: 0;
+    padding: 0;
+    width: 396px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph 1 settings inside the second footer section */
+.footer-2 .p1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+/* Paragraph 2 settings inside the second footer section */
+.footer-2 .p2 {
+    line-height: 27px;
+    color: #0a0b27;
+    font-weight: bold;
+    width: 312px;
+    padding-left: 10%;
+    padding-bottom: 20%;
+}
+
+/* Hover effects for span inside the second footer section */
+.footer-2 .p2 span:hover {
+    color: #e53f27;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Third footer section */
+.footer-3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+    align-items: start;
+}
+
+/* Paragraphs settings inside the third footer section */
+.footer-3 .p1,
+.p2,
+.p3 {
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 2;
+    padding-left: 10%;
+}
+
+/* Paragraph:2 and Paragraph:3 settings inside the third footer section */
+.footer-3 .p2,
+.p3 {
+    width: 330px;
+    letter-spacing: 1;
+    line-height: 1;
+    padding-top: 5%;
+}
+
+/* Paragraph:1 settings inside the third footer section */
+.footer-3 .p1 {
+    padding-top: 9%;
+}
+
+/* Styles for the span elements inside the third footer section */
+.footer-3 span {
+    font-weight: bold;
+    color: #0a0b27;
+}
+
+/* Hover effects for the span elements inside the third footer section */
+.footer-3 span:hover {
+    color: #e53f27;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Social media icons inside the third footer section */
+.footer-3 .networking {
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+/* Individual icons inside the networking section */
+.footer-3 .networking .linkdin-logo,
+.twitter-logo,
+.instagram-logo,
+.facebook-logo {
+    cursor: pointer;
+}
